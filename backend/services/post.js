@@ -23,7 +23,7 @@ class Post {
             try {
                 const user = await prisma.user.findUnique({where: {id: id}})
                 const userWallet = user.address
-                let provider = await new ethers.JsonRpcProvider(`https://evm-rpc-testnet.sei-apis.co`);
+                let provider = await new ethers.JsonRpcProvider(`https://evm-rpc-testnet.sei-apis.com`);
                 let wallet =  new ethers.Wallet(process.env.PRIVATE_KEY, provider);
                 const contract = new ethers.Contract(process.env.POST_FACTORY_CONTRACT_ADDRESS, postContractAbi.abi, wallet);
                 await contract.createPost(description, ipfsLink, userWallet);
