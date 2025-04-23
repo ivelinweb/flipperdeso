@@ -7,7 +7,7 @@ This README provides instructions for deploying and using the Flipper contracts 
 - **Network**: Sei EVM Testnet (Atlantic-2)
 - **Currency**: SEI
 - **Chain ID**: 1328
-- **RPC URL**: https://evm-rpc-testnet.sei-apis.co
+- **RPC URL**: https://evm-rpc-testnet.sei-apis.com
 - **Explorer**: https://seitrace.com/?chain=atlantic-2
 
 ## Prerequisites
@@ -25,7 +25,7 @@ This README provides instructions for deploying and using the Flipper contracts 
 4. Click "Add a network manually"
 5. Enter the following details:
    - Network Name: Sei EVM Testnet (Atlantic-2)
-   - New RPC URL: https://evm-rpc-testnet.sei-apis.co
+   - New RPC URL: https://evm-rpc-testnet.sei-apis.com
    - Chain ID: 1328
    - Currency Symbol: SEI
    - Block Explorer URL: https://seitrace.com/?chain=atlantic-2
@@ -36,7 +36,7 @@ This README provides instructions for deploying and using the Flipper contracts 
 1. Create a `.env` file in the `contracts` directory with the following content:
    ```
    MNEMONIC="your mnemonic phrase here"
-   SEI_RPC_URL=https://evm-rpc-testnet.sei-apis.co
+   SEI_RPC_URL=https://evm-rpc-testnet.sei-apis.com
    ```
 
 2. Deploy the contracts to Sei EVM Testnet:
