@@ -7,7 +7,7 @@ export const seiNetworkConfig = {
     symbol: 'SEI',
     decimals: 18
   },
-  rpcUrls: ['https://evm-rpc-testnet.sei-apis.co'],
+  rpcUrls: ['https://evm-rpc-testnet.sei-apis.com'],
   blockExplorerUrls: ['https://seitrace.com/?chain=atlantic-2']
 };
 
