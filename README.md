@@ -51,9 +51,13 @@ Join us on Flipper and be part of the social media revolution!
 ## Smart Contract Deployment on SEI EVM Testnet (atlantic-2)
 
 Donation: [0xB433a6F3c690D17E78aa3dD87eC01cdc304278a9](https://seitrace.com/address/0xB433a6F3c690D17E78aa3dD87eC01cdc304278a9?chain=atlantic-2&tab=contract)
+
 Chainlink SEI/USD Price Feed: [0x1003cF9ECD6a8401cC2c080E72AEE1fCBbf90E33](https://seitrace.com/address/0x1003cF9ECD6a8401cC2c080E72AEE1fCBbf90E33?chain=atlantic-2&tab=contract)
+
 PostFactory: [0x99fA2C17fC269FA23ADd4E71cDE3210B1174f3B8](https://seitrace.com/address/0x99fA2C17fC269FA23ADd4E71cDE3210B1174f3B8?chain=atlantic-2&tab=contract)
+
 ProfileImageFactory: [0xC6dD53Fc5ddAEA85EdbFdD149784C0B3cA6AFbD3](https://seitrace.com/address/0xC6dD53Fc5ddAEA85EdbFdD149784C0B3cA6AFbD3?chain=atlantic-2&tab=contract)
+
 
 ## Architecture
 
