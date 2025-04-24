@@ -6,7 +6,7 @@ async function main() {
   console.log("Deploying contracts to Sei EVM Testnet (Atlantic-2)...");
 
   // Connect to the Sei EVM Testnet
-  const provider = new ethers.providers.JsonRpcProvider(process.env.SEI_RPC_URL || "https://evm-rpc-testnet.sei-apis.com");
+  const provider = new ethers.providers.JsonRpcProvider(process.env.SEI_RPC_URL || "https://evm-rpc-testnet.sei-apis.co");
   const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
 
   console.log(`Deploying contracts with the account: ${wallet.address}`);
