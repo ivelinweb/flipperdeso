@@ -10,7 +10,7 @@ import { HardhatUserConfig } from "hardhat/config"
 
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY || ""
 const SEI_RPC_URL =
-  process.env.SEI_RPC_URL || "https://evm-rpc-testnet.sei-apis.com"
+  process.env.SEI_RPC_URL || "https://evm-rpc-testnet.sei-apis.co"
 const PRIVATE_KEY = process.env.PRIVATE_KEY || "privatKey"
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || ""
 
